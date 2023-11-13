@@ -88,3 +88,52 @@ Tipos de funciones de membresía:
     _\*En un sistema de pronóstico de demanda de productos, podríamos modelar la duración de la alta demanda de un producto. Una función sigmoide sería útil para representar conjuntos difusos como "Inicio gradual de la demanda" y "Rápido aumento de la demanda", donde la transición entre ambas es gradual._<br><br>
 
 ## Relaciones difusas
+
+**Relación difusa** $\rightarrow$ Relación entre valores de dos conjuntos difusos
+
+### Operaciones para relacionar conjuntos difusos
+
+-   **Producto cartesiano** $\rightarrow$ Relaciona 2 conjuntos difusos representados en una matriz
+    ![Producto cartesiano](./images/16_producto_cartesiano.png)
+    <hr>
+    _\*En este caso difuso podemos ver como se relacionan 2 conjuntos difusos que analizan el caso difuso de la gravedad de un accidente de coche dependiendo de la velocidad a la que vaya el coche, podemos ver la pertenencia de cada caso en la matriz, ejemplo: para una velocidad de 80km/h hay un grado de pertenencia de 0.5 a tener un accidente de gravedad 3_
+    <hr>
+    ![Graficas Producto Cartesiano](./images/17_graficas_producto_cartesiano.png.png)
+    *\*Gráficas del producto cartesiano entre un conjunto difuos de los libros venidos en una libreria, y el stock de estos en la librería*
+    <br><br>
+
+-   **Composición** $\rightarrow$ Relaciona 3 conjuntos difusos(_A, B, C_) como producto del porducto cartesiano entre estos (_AxB, BxC_).
+![Composicion](./images/18_composicion.png)
+<hr>
+
+![Gráficas composición](./images/19_graficas_composicion.png)
+
+## Razonamiento aproximado
+
+**Razonamiento aproximado** $\rightarrow$ Modo de pensamiento que permite afrontar problemas mátematicos de lógica difusa mediante el lenguaje gracias a variables linüisticas.
+
+**Variable lingüistica** $\rightarrow$ (x, X, T, M)
+
+-   **x** $\rightarrow$ Nombre de la varibale
+-   **X** $\rightarrow$ Universo de discurso
+-   **T** $\rightarrow$ Valores lingüisticos que acepta
+-   **M** $\rightarrow$ Función para asociar cada T con su significado
+    ![Variable lingüistica](./images//20_variable_linguistica.png)
+
+### Reglas difusas - SI-ENTONCES
+
+En los sistemas difusos se relacionan unas variabes con otras:
+
+-   **Si** x es A **entonces** y es B
+    ![Si - Entonces](./images/21_si_entonces.png)
+
+-   Evaluar una regla difusa con variables lingüisticas según la representación de las funciones de membresía:
+    ![Evaluación regla difusa](./images/22_evalucion_regla_difusa.png)
+
+### Modus ponens difuso
+
+El modus ponens difuos es una regla de inferencia de los conjuntos difusos que afirma que si una condicion (x es A) es verdadera entonces la segunda condición (y es B) también es verdadera.
+![Modus ponens](./images/23_modus_ponens.png)
+
+Para representar esto mediante variables lingüisticas y gráficas de funciones de membresía sería:
+![Modus ponens representacion](images/24_modus_ponens_representacion.png)
