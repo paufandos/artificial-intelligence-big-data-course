@@ -13,7 +13,7 @@
 -   **Interpersonal**
 -   **Naturalista**
 
-**Test de turing** s$\rightarrow$ Test que determina si una máquina puede comportarse como una persona humana indistinguiblemente.<br>
+**Test de turing** $\rightarrow$ Test que determina si una máquina puede comportarse como una persona humana indistinguiblemente.<br>
 
 **Ideas de Marvin Minsky** (_pionero en IA_):
 
