@@ -4,7 +4,8 @@
 **Lógica difusa** -> Ya no son solo 2 los estados a los que se puede reducir una proposición, no es blanco o negro, existen gristes
 
 -   En IA se aplica para procesos industriales complejos y sistemas de decision en general.<br>
-    ![Lógica binaria vs Lógica difusa](./images/image.png)
+
+![Lógica binaria vs Lógica difusa](./images/image.png)
 
 La lógica difusa analiza métodos y principios de razonaimento sobre conjuntos difusos.<br>
 Un conjunto es una colección de 'cosas', normalmente números
@@ -24,10 +25,8 @@ Hay dos maneras de definir conjuntos: **Continuos** y **Discretos**
 
 Propiedades de conjuntos clásicos:
 
--   **Pertenencia** -> Si todos los elementos de los dos conjuntos coinciden
-    -   **B == A** -> Todos los elementos de B están en A
-    -   **B != A** -> Hay elementos de B que no están en A
-        ![Pertenencia](./images/image-2.png)
+-   **Pertenencia** -> Si todos los elementos de los dos conjuntos coinciden - **B == A** -> Todos los elementos de B están en A - **B != A** -> Hay elementos de B que no están en A
+    ![Pertenencia](./images/image-2.png)
 -   **Intersección** -> Elementos que coinciden tanto en A como en B
     ![Interseccion](./images/image-3.png)
 -   **Unión** -> Todos los elementos tanto de A como de B
